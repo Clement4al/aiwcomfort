@@ -1,0 +1,370 @@
+/*.text-thm6-light {*/
+/*    color: #28a745; !* Nice light green *!*/
+/*}*/
+.text-thm6-ligt {
+    color: #0d6efd; /* Bootstrap clean blue */
+}
+.highlight-box {
+    position: relative;
+    padding-left: 20px;
+}
+
+.text-thm6-light {
+    color: rgba(114, 101, 220, 0.87);
+    font-weight: 600;
+}
+
+.highlight-box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; /* keeps text aligned nicely */
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.highlight-line {
+    width: 2px;
+    height: 100%;
+    min-height: 70px;
+    background: #0a4e19;
+}
+
+.about-img {
+    max-width: 271px;
+}
+.protection-card {
+    border: 1px solid darkgray;
+    background: transparent;
+    border-radius: 12px;
+    min-height: 260px;
+}
+
+.circle-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 24px;
+}
+.bg-succes {
+    background-color: #FFC107 !important; /* Yellow */
+}
+
+.bg-success {
+    background-color: #4CAF69 !important;
+}
+.bg-purple {
+    background-color: rgba(114, 101, 220, 0.87) !important;
+}
+.protection-card .circle-icon {
+    transition: transform 0.5s ease;
+}
+
+.protection-card:hover .circle-icon {
+    transform: scale(1.2);
+}
+
+.protection-card {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.protection-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.life-protection-section {
+    padding-top: 40px;
+}
+
+.main-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+    font-size: 16px;
+}
+
+.protection-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.protection-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.bubble {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(114, 101, 220, 0.87) !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #dbe3e0;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.item-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+
+.right-description {
+    margin-top: 20px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.income-protection-section {
+    background: #ffffff;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #243424;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    max-width: 750px;
+    margin: 0 auto;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* CARDS */
+.pro-card {
+    background: #efe1d3;
+    border-radius: 14px;
+    padding: 30px;
+    text-align: left;
+    height: 100%;
+}
+
+.pro-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.pro-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e3321;
+}
+
+.pro-text {
+    color: #555;
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+/* Difference Section */
+.diff-item {
+    text-align: left;
+}
+
+.diff-icon {
+    font-size: 32px;
+    color: #2c6b41;
+    margin-bottom: 10px;
+}
+
+.diff-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e3321;
+}
+
+.diff-text {
+    color: #555;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+/* Spacing */
+.mt80 {
+    margin-top: 80px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+.diff-item {
+    display: block;
+}
+
+.diff-icon {
+    font-size: 42px;
+    color: #2c6b41;
+    margin-bottom: 10px;
+}
+
+.diff-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #243424;
+    margin-bottom: 5px;
+}
+
+.diff-text {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.mb50 { margin-bottom: 50px; }
+/* Base style for all 4 labels */
+.diagram-text {
+    position: absolute;
+    max-width: 160px;
+    font-size: 15px;
+}
+
+/* Desktop positioning */
+.top-left {
+    top: 40px;
+    left: 5%;
+    text-align: right;
+}
+
+.top-right {
+    top: 40px;
+    right: 5%;
+    text-align: left;
+}
+
+.bottom-left {
+    bottom: 40px;
+    left: 5%;
+    text-align: right;
+}
+
+.bottom-right {
+    bottom: 40px;
+    right: 5%;
+    text-align: left;
+}
+
+/* Tablet fix */
+@media (max-width: 991px) {
+    .diagram-text {
+        max-width: 140px;
+        font-size: 14px;
+    }
+
+    .top-left,
+    .top-right {
+        top: 20px;
+    }
+
+    .bottom-left,
+    .bottom-right {
+        bottom: 20px;
+    }
+
+    .top-left, .bottom-left {
+        left: 2%;
+    }
+
+    .top-right, .bottom-right {
+        right: 2%;
+    }
+}
+
+/* Mobile layout — stack them nicely */
+@media (max-width: 600px) {
+    .diagram-text {
+        position: relative;
+        max-width: 100%;
+        text-align: center !important;
+        margin: 12px 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        bottom: auto;
+    }
+
+    /* Stack layout below circle */
+    .top-left,
+    .top-right,
+    .bottom-left,
+    .bottom-right {
+        transform: none;
+    }
+
+    .position-relative {
+        flex-direction: column;
+        height: auto !important;
+    }
+}
+.mission-section {
+    background: rgba(175, 153, 237, 0.95);
+    padding: 100px 0;
+}
+
+.mission-title {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mission-subtext {
+    font-size: 17px;
+    color: #dce4e8;
+    max-width: 700px;
+    line-height: 1.7;
+}
+
+.mission-image {
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+}
+
+.mission-list {
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.mission-list li {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.mission-goal {
+    color: #dce4e8;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .mission-title {
+        font-size: 28px;
+    }
+    .mission-subtext {
+        font-size: 15px;
+    }
+}
