@@ -645,7 +645,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="border-t border-dashed border-default-200 p-4 whitespace-nowrap">
                     <div class="mb-4">
                         <a href="https://wa.me/2349157688075" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Footrest_Black|Camo</a>
@@ -673,73 +672,27 @@
                         </a><!-- end btn -->
                     </div>
                 </div>
-            </div><!-- end card -->
+            </div>
+            <!-- end chairs card -->
 
             <div class="border border-default-200 rounded-xl overflow-hidden duration-500 hover:border-primary relative">
                 <div class="p-4">
                     <div class="relative">
-                        <img src="/greencart/assets/6-fc45c68a.png" alt="" class="w-full h-full">
-                        <div class="absolute top-0 start-0">
-                            <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-primary/10 text-primary">Footrest_green/black</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="border-t border-dashed border-default-200 p-4">
-                    <div class="mb-4">
-                        <a href="product-detail.html" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Footrest_green/black</a>
-                    </div>
-
-                    <div class="flex items-center justify-between gap-2 mb-4">
-              <span class="flex items-center gap-2">
-                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>
-                <span class="text-sm text-default-950 from-inherit">4.9</span>
-              </span>
-
-                        <div class="relative z-10 inline-flex justify-between border border-default-200 p-1 rounded-full" data-hs-input-number>
-                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-decrement>
-                                <i class="ti ti-minus"></i>
-                            </button>
-                            <input type="number" class="w-8 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent" value="1" data-hs-input-number-input>
-                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-increment>
-                                <i class="ti ti-plus"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="flex items-center justify-between gap-2">
-                        <h4 class="font-semibold text-xl text-primary">$74 <span class="text-default-400 text-base line-through">$89</span> </h4>
-                        <a href="pages-cart.html" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
-                            <i class="ti ti-shopping-bag text-xl me-2"></i>
-                            <span>Add to cart</span>
-                        </a><!-- end btn -->
-                    </div>
-                </div>
-            </div><!-- end card -->
-
-            <div class="border border-default-200 rounded-xl overflow-hidden duration-500 hover:border-primary relative">
-                <div class="p-4">
-                    <div class="relative">
-                        <img src="/greencart/assets/7-e9f364dd.png" alt="" class="w-full h-full">
-                        <div class="absolute top-0 start-0">
-                            <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-primary/10 text-primary">Sale</span>
-                        </div>
+                        <img src="{{ asset('greencart/chair5.png') }}" alt="" class="w-full h-full">
                         <div class="absolute top-0 end-0">
                             <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-red-500/10 text-red-500">Hot</span>
                         </div>
                     </div>
                 </div>
-
-                <div class="border-t border-dashed border-default-200 p-4">
+                <div class="border-t border-dashed border-default-200 p-4 whitespace-nowrap">
                     <div class="mb-4">
-                        <a href="product-detail.html" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Avocado</a>
+                        <a href="https://wa.me/2349157688075" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Footrest_Black|Camo</a>
                     </div>
-
                     <div class="flex items-center justify-between gap-2 mb-4">
               <span class="flex items-center gap-2">
-                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>
-                <span class="text-sm text-default-950 from-inherit">4.6</span>
+{{--                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>--}}
+                <span class="text-default-400 text-base line-through">₦215,000</span>
               </span>
-
                         <div class="relative z-10 inline-flex justify-between border border-default-200 p-1 rounded-full" data-hs-input-number>
                             <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-decrement>
                                 <i class="ti ti-minus"></i>
@@ -751,36 +704,34 @@
                         </div>
                     </div>
                     <div class="flex items-center justify-between gap-2">
-                        <h4 class="font-semibold text-xl text-primary">$46 <span class="text-default-400 text-base line-through">$89</span> </h4>
-                        <a href="pages-cart.html" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
+                        <h4 class="font-semibold text-xl text-primary">₦206,000</h4>
+                        <a href="https://wa.me/2349157688075" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
                             <i class="ti ti-shopping-bag text-xl me-2"></i>
                             <span>Add to cart</span>
                         </a><!-- end btn -->
                     </div>
                 </div>
-            </div><!-- end card -->
+            </div>
+            <!-- end chairs card -->
 
             <div class="border border-default-200 rounded-xl overflow-hidden duration-500 hover:border-primary relative">
                 <div class="p-4">
                     <div class="relative">
-                        <img src="/greencart/assets/8-f4839df5.png" alt="" class="w-full h-full">
+                        <img src="{{ asset('greencart/chair5.png') }}" alt="" class="w-full h-full">
                         <div class="absolute top-0 end-0">
                             <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-red-500/10 text-red-500">Hot</span>
                         </div>
                     </div>
                 </div>
-
-                <div class="border-t border-dashed border-default-200 p-4">
+                <div class="border-t border-dashed border-default-200 p-4 whitespace-nowrap">
                     <div class="mb-4">
-                        <a href="product-detail.html" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Chicken Meat</a>
+                        <a href="https://wa.me/2349157688075" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Footrest_Black|Camo</a>
                     </div>
-
                     <div class="flex items-center justify-between gap-2 mb-4">
               <span class="flex items-center gap-2">
-                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>
-                <span class="text-sm text-default-950 from-inherit">4.3</span>
+{{--                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>--}}
+                <span class="text-default-400 text-base line-through">₦215,000</span>
               </span>
-
                         <div class="relative z-10 inline-flex justify-between border border-default-200 p-1 rounded-full" data-hs-input-number>
                             <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-decrement>
                                 <i class="ti ti-minus"></i>
@@ -792,77 +743,33 @@
                         </div>
                     </div>
                     <div class="flex items-center justify-between gap-2">
-                        <h4 class="font-semibold text-xl text-primary">$59</h4>
-                        <a href="pages-cart.html" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
+                        <h4 class="font-semibold text-xl text-primary">₦206,000</h4>
+                        <a href="https://wa.me/2349157688075" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
                             <i class="ti ti-shopping-bag text-xl me-2"></i>
                             <span>Add to cart</span>
                         </a><!-- end btn -->
                     </div>
                 </div>
-            </div><!-- end card -->
-
+            </div>
+            <!-- end chairs card -->
             <div class="border border-default-200 rounded-xl overflow-hidden duration-500 hover:border-primary relative">
                 <div class="p-4">
                     <div class="relative">
-                        <img src="/greencart/assets/9-c7fc9593.png" alt="" class="w-full h-full">
-                    </div>
-                </div>
-
-                <div class="border-t border-dashed border-default-200 p-4">
-                    <div class="mb-4">
-                        <a href="product-detail.html" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Watermelon</a>
-                    </div>
-
-                    <div class="flex items-center justify-between gap-2 mb-4">
-              <span class="flex items-center gap-2">
-                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>
-                <span class="text-sm text-default-950 from-inherit">4.3</span>
-              </span>
-
-                        <div class="relative z-10 inline-flex justify-between border border-default-200 p-1 rounded-full" data-hs-input-number>
-                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-decrement>
-                                <i class="ti ti-minus"></i>
-                            </button>
-                            <input type="number" class="w-8 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent" value="1" data-hs-input-number-input>
-                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-increment>
-                                <i class="ti ti-plus"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="flex items-center justify-between gap-2">
-                        <h4 class="font-semibold text-xl text-primary">$42</h4>
-                        <a href="pages-cart.html" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
-                            <i class="ti ti-shopping-bag text-xl me-2"></i>
-                            <span>Add to cart</span>
-                        </a><!-- end btn -->
-                    </div>
-                </div>
-            </div><!-- end card -->
-
-            <div class="border border-default-200 rounded-xl overflow-hidden duration-500 hover:border-primary relative">
-                <div class="p-4">
-                    <div class="relative">
-                        <img src="/greencart/assets/11-59ae3153.png" alt="" class="w-full h-full">
-                        <div class="absolute top-0 start-0">
-                            <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-primary/10 text-primary">Sale</span>
-                        </div>
+                        <img src="{{ asset('greencart/chair5.png') }}" alt="" class="w-full h-full">
                         <div class="absolute top-0 end-0">
                             <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-red-500/10 text-red-500">Hot</span>
                         </div>
                     </div>
                 </div>
-
-                <div class="border-t border-dashed border-default-200 p-4">
+                <div class="border-t border-dashed border-default-200 p-4 whitespace-nowrap">
                     <div class="mb-4">
-                        <a href="product-detail.html" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Kiwi</a>
+                        <a href="https://wa.me/2349157688075" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Footrest_Black|Camo</a>
                     </div>
-
                     <div class="flex items-center justify-between gap-2 mb-4">
               <span class="flex items-center gap-2">
-                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>
-                <span class="text-sm text-default-950 from-inherit">4.3</span>
+{{--                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>--}}
+                <span class="text-default-400 text-base line-through">₦215,000</span>
               </span>
-
                         <div class="relative z-10 inline-flex justify-between border border-default-200 p-1 rounded-full" data-hs-input-number>
                             <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-decrement>
                                 <i class="ti ti-minus"></i>
@@ -874,14 +781,92 @@
                         </div>
                     </div>
                     <div class="flex items-center justify-between gap-2">
-                        <h4 class="font-semibold text-xl text-primary">$68 <span class="text-default-400 text-base line-through">$77</span> </h4>
-                        <a href="pages-cart.html" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
+                        <h4 class="font-semibold text-xl text-primary">₦206,000</h4>
+                        <a href="https://wa.me/2349157688075" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
                             <i class="ti ti-shopping-bag text-xl me-2"></i>
                             <span>Add to cart</span>
                         </a><!-- end btn -->
                     </div>
                 </div>
-            </div><!-- end card -->
+            </div>
+            <!-- end chairs card -->
+            <div class="border border-default-200 rounded-xl overflow-hidden duration-500 hover:border-primary relative">
+                <div class="p-4">
+                    <div class="relative">
+                        <img src="{{ asset('greencart/chair5.png') }}" alt="" class="w-full h-full">
+                        <div class="absolute top-0 end-0">
+                            <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-red-500/10 text-red-500">Hot</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t border-dashed border-default-200 p-4 whitespace-nowrap">
+                    <div class="mb-4">
+                        <a href="https://wa.me/2349157688075" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Footrest_Black|Camo</a>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="flex items-center gap-2">
+{{--                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>--}}
+                <span class="text-default-400 text-base line-through">₦215,000</span>
+              </span>
+                        <div class="relative z-10 inline-flex justify-between border border-default-200 p-1 rounded-full" data-hs-input-number>
+                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-decrement>
+                                <i class="ti ti-minus"></i>
+                            </button>
+                            <input type="number" class="w-8 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent" value="1" data-hs-input-number-input>
+                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-increment>
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between gap-2">
+                        <h4 class="font-semibold text-xl text-primary">₦206,000</h4>
+                        <a href="https://wa.me/2349157688075" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
+                            <i class="ti ti-shopping-bag text-xl me-2"></i>
+                            <span>Add to cart</span>
+                        </a><!-- end btn -->
+                    </div>
+                </div>
+            </div>
+            <!-- end chairs card -->
+            <div class="border border-default-200 rounded-xl overflow-hidden duration-500 hover:border-primary relative">
+                <div class="p-4">
+                    <div class="relative">
+                        <img src="{{ asset('greencart/table1.jpg') }}" alt="" class="w-full h-full">
+                        <div class="absolute top-0 end-0">
+                            <span class="inline-flex items-center gap-1.5 py-1 px-4 rounded-lg text-sm font-medium bg-red-500/10 text-red-500">Hot</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t border-dashed border-default-200 p-4 whitespace-nowrap">
+                    <div class="mb-4">
+                        <a href="https://wa.me/2349157688075" class="text-default-600 text-xl font-semibold line-clamp-1 after:absolute after:inset-0 after:z-0">Electric Table/black
+                        </a>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+              <span class="flex items-center gap-2">
+{{--                <span class="h-5 w-5 inline-flex items-center justify-center bg-primary text-white rounded-full"><i class="ti ti-star-filled text-sm"></i></span>--}}
+                <span class="text-default-400 text-base line-through">₦300,000</span>
+              </span>
+                        <div class="relative z-10 inline-flex justify-between border border-default-200 p-1 rounded-full" data-hs-input-number>
+                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-decrement>
+                                <i class="ti ti-minus"></i>
+                            </button>
+                            <input type="number" class="w-8 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent" value="1" data-hs-input-number-input>
+                            <button class="shrink bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center" type="button" data-hs-input-number-increment>
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between gap-2">
+                        <h4 class="font-semibold text-xl text-primary">₦260,000</h4>
+                        <a href="https://wa.me/2349157688075" class="shrink flex items-center justify-center rounded-lg bg-primary/20 text-primary px-6 py-2.5 text-center text-sm font-medium shadow-sm transition-all duration-200 hover:bg-primary hover:text-white relative z-10">
+                            <i class="ti ti-shopping-bag text-xl me-2"></i>
+                            <span>Add to cart</span>
+                        </a><!-- end btn -->
+                    </div>
+                </div>
+            </div>
+            <!-- end tables card -->
         </div><!-- end grid -->
     </div><!-- end container -->
 </section>
@@ -915,7 +900,7 @@
             </div>
             <div class="flex flex-col group border border-default-200 rounded-xl duration-500 hover:border-primary">
                 <div class="rounded-lg overflow-hidden mx-2 mt-2">
-                    <img src="/greencart/assets/3-a97eec19.png" class="object-cover transition duration-300 ease-in-out transform group-hover:opacity-90 group-hover:scale-105" />
+                    <img src="/greencart/assets/3-a97eec19.png" class="object-cover transition duration-300 ease-in-out transform group-hover:opacity-90 group-hover:scale-105"  alt=""/>
                 </div>
                 <div class="flex flex-col items-start p-4">
                     <h2 class="text-lg font-semibold mb-2 line-clamp-1 text-default-900">The top choice among vegetables.</h2>
